@@ -1,0 +1,8 @@
+package ${modulePackage}.controller.form;
+import mobi.sunfield.medical.convenience.core.controller.form.BaseSearchForm;
+
+public class ${className}SearchForm extends BaseSearchForm {
+	
+	${feilds}
+	
+}
