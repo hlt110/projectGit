@@ -1,4 +1,4 @@
-package com.sun.szk.ssm.util;
+﻿package com.sun.szk.ssm.util;
 
 import java.io.File;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.velocity.VelocityContext;
 
 /**
- * ****************************** java生成器， 这个代码不需要提交 *******************************
+ * ****************************** java生成器，  这个代码不需要提交 *******************************
  * 
  */
 public class Java_Code_Generator {
