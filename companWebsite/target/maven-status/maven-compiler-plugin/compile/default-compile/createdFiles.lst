@@ -1,9 +1,0 @@
-com\sun\szk\ssm\mapping\UserMapper.class
-com\sun\szk\ssm\entity\UserExample$Criteria.class
-com\sun\szk\ssm\model\User.class
-com\sun\szk\ssm\service\TestService.class
-com\sun\szk\ssm\service\impl\TestServiceImpl.class
-com\sun\szk\ssm\entity\UserExample$Criterion.class
-com\sun\szk\ssm\entity\UserExample$GeneratedCriteria.class
-com\sun\szk\ssm\controller\TestController.class
-com\sun\szk\ssm\entity\UserExample.class
