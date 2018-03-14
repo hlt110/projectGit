@@ -1,0 +1,75 @@
+package ${modulePackage}.controller;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import com.sun.szk.base.core.controller.BaseController;
+import com.sun.szk.base.core.controller.form.QueryAssistor;
+import com.sun.szk.base.core.result.HttpResultEntity;
+import com.sun.szk.base.core.result.QueryResult;
+import ${importPackage}.domain.${className};
+import ${importPackage}.service.${className}Service;
+import org.springframework.web.bind.annotation.ResponseBody;
+import com.sun.szk.base.core.annotations.LogContent;
+
+/**
+ * ${codeName}控制器
+ *
+ */
+@Controller
+@RequestMapping("/service/${lowerName}")
+public class ${className}Controller extends BaseController {
+
+
+	/**
+	 * ${codeName}服务类
+	 */
+	@Resource
+	private ${className}Service ${lowerName}Service;
+
+//	/**
+//	 * 列出${codeName}
+//	 */
+//	@LogContent("查询${codeName}")
+//	@RequestMapping("/list")
+//	@ResponseBody
+//	public QueryResult<${className}> list(${className} ${lowerName} ,QueryAssistor queryAssistor) throws Exception {
+//        return ${lowerName}Service.getData(${lowerName},queryAssistor.configPage().addOrderByDesc("createDateTime"));
+//
+//	}
+//
+//
+//	/**
+//	 * 添加${codeName}
+//	 */
+//	@LogContent("添加${codeName}")
+//	@RequestMapping("/add")
+//	@ResponseBody
+//	public HttpResultEntity<?> add(${className} ${lowerName}) throws Exception {
+//		${lowerName}Service.save(${lowerName});
+//        return getSuccessResult();
+//	}
+//
+//	/**
+//	 * 编辑${codeName}
+//	 */
+//    @LogContent("编辑${codeName}")
+//	@RequestMapping("/edit")
+//    @ResponseBody
+//	public HttpResultEntity<?> edit(${className} ${lowerName}) throws Exception {
+//		${lowerName}Service.updateForSelective(${lowerName});
+//        return getSuccessResult();
+//	}
+//
+//	/**
+//	 * 删除单个${codeName}
+//	 */
+//	@LogContent("删除${codeName}")
+//	@RequestMapping("/delete")
+//	@ResponseBody
+//	public HttpResultEntity<?> delete(Integer $SQL.columnList[0])  throws Exception{
+//		${lowerName}Service.delete($SQL.columnList[0]);
+//		return getSuccessResult();
+//	}
+}
