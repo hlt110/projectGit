@@ -1,6 +1,5 @@
 package sunzk.controller.handler;
 
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -10,7 +9,7 @@ import java.util.Map;
 /**
  * Created by 82681 on 2017/12/27.
  */
-@ControllerAdvice
+//@ControllerAdvice
 public class GlobalExceptionHandler {
     @ExceptionHandler(RuntimeException.class)
     @ResponseBody
